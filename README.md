@@ -144,6 +144,8 @@ DATABASES = {
 
 # DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL')) }
 ```
+
+In setting, add ALLOWED_HOSTS = ['*']
 8. In the terminal:
     `$ python manage.py migrate` - this will apply migrations to your local sqlite database
     `$ python manage.py createsuperuser` - this will create admin support
