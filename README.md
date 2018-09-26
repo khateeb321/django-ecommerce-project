@@ -38,6 +38,7 @@ Follow the below instructions to clone this project for Mac (commands will be sl
     Activate: `$ source ~/virtualenvs/name_of_environment/bin/activate`
 3. Install the project dependancies:
     `$ pip install -r requirements.txt`
+    (If this error occurs 'Command "python setup.py egg_info" failed with error code 10 in C:\Users\Khateeb\AppData\Local\Temp\pip-install-tts80_5f\pycurl\', then use this command `$ easy_install pycurl`)
 4. Create env.sh file at the top level (this will contain all sensitive information)
     **MAKE SURE IT IS IN THE .gitignore FILE**
 5. Copy the following into the env.sh file:
